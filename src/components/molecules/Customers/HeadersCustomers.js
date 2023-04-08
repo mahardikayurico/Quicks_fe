@@ -4,7 +4,7 @@ export default function HeadersCustomers() {
   return (
     <div>
       <div className="border-b-2 border-[#D1D0D366]">
-        <div className="mt-2">
+        <div className="">
           <h1 className="text-3xl font-[700]">Customer</h1>
           <h3 className="text-[#98949E]">
             You can manage and organize your customer and other things here
