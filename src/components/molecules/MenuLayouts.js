@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MenuLayouts() {
   return (
-    <div className="border-b-2 border-[#D1D0D366] pb-2">
+    <div className="pb-2">
       <div className="mt-8">
         <h1 className="text-[#98949E]">Menu </h1>
       </div>
@@ -14,7 +14,7 @@ export default function MenuLayouts() {
           <h1 className="text-[#98949E] mt-2">Stock</h1>
         </div>
         <div>
-          <h1 className="text-[#98949E] mt-2">Customer</h1>
+          <h1 className="text-[#5D5FEF] font-semibold mt-2">Customer</h1>
         </div>
         <div>
           <h1 className="text-[#98949E] mt-2">Restaurant</h1>
