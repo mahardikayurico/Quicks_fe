@@ -6,8 +6,10 @@ import TopMenuCard from "../../atoms/customers/TopMenuCard";
 export default function AnalyticsCustomers() {
   return (
     <>
-      <AnalyticsCard />
-      <TopMenuCard />
+      <div>
+        <AnalyticsCard />
+        <TopMenuCard />
+      </div>
     </>
   );
 }

@@ -6,13 +6,13 @@ import { RiLogoutBoxFill } from "react-icons/ri";
 
 export default function LayoutMains() {
   return (
-    <>
-      <section className="basis-[15%] border-r-2 border-[#D1D0D366]">
+    <div className="hidden lg:block md:block">
+      <section className="basis-[15%] border-r-2 border-[#D1D0D366] ">
         <div className="mx-auto">
           <img src={logo} />
         </div>
         <MenuLayouts />
-        <div className="mt-[18rem]">
+        <div className="mt-[23rem]">
           <div className="flex flex-row  border-t-2 border-[#D1D0D366]">
             <div className="mt-2">
               <img src={profile} />
@@ -30,6 +30,6 @@ export default function LayoutMains() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
