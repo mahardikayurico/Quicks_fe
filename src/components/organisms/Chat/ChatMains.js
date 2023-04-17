@@ -1,5 +1,8 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
+
+import CardChat from "../../molecules/Chat/CardChat";
+
 export default function ChatMains() {
   return (
     <div className="flex flex-row">
@@ -21,6 +24,7 @@ export default function ChatMains() {
             </form>
           </div>
         </div>
+        <CardChat />
       </div>
     </div>
   );
