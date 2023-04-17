@@ -63,7 +63,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This app deployment in Varcel : [https://vercel.com/mahardikayurico/quicks-fe/4aR9wC7QEoMN6m4Pgz3gDrA6MBab]
+This app deployment in Varcel : [https://quicks-fe.vercel.app/]
 
 ### `npm run build` fails to minify
 
